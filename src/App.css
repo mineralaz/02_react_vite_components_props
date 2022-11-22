@@ -67,3 +67,10 @@
   color: white;
   padding: 2rem;
 }
+.section2Cards {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
