@@ -12,6 +12,11 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+.grid--four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
 
 .card__text {
   color: gray;
@@ -26,7 +31,7 @@
 }
 .teamList {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 .member__name,

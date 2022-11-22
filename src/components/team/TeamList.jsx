@@ -1,4 +1,5 @@
 import TeamMember from './TeamMember';
+import Grid from '../UI/Grid';
 // generuoti team memberi is teamsArr
 const teamsArr = [
   {
@@ -24,7 +25,7 @@ const teamsArr = [
 ];
 function TeamList() {
   return (
-    <div className="teamList">
+    <Grid>
       <TeamMember
         name={teamsArr[0].name}
         occupation={teamsArr[0].occupation}
@@ -45,7 +46,7 @@ function TeamList() {
         occupation={teamsArr[3].occupation}
         img={teamsArr[3].img}
       />
-    </div>
+    </Grid>
   );
 }
 export default TeamList;
