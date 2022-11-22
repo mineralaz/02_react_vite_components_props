@@ -7,29 +7,41 @@ function SectionTitle(props) {
 
 function Icon(props) {
   // console.log('props ===', props);
-  return <i className={`fa ${props.iconName}`} aria-hidden="true"></i>;
+  return <i className={`fa ${props.iconName} fa-3x`} aria-hidden="true"></i>;
 }
 
 function Grid() {
   return (
     <div className="grid">
-      <ServiceCard />
-      <ServiceCard />
-      <ServiceCard />
+      <ServiceCard
+        title="Business consulting"
+        icon="fa-rocket"
+        link="/about.html"
+      />
+      <ServiceCard
+        title="Market Analysis"
+        icon="fa-desktop"
+        link="/about.html"
+      />
+      <ServiceCard
+        title="User Monitoring"
+        icon="fa-wrench"
+        link="/about.html"
+      />
     </div>
   );
 }
 
-function ServiceCard() {
+function ServiceCard(props) {
   return (
     <div className="card">
-      <Icon className="card__icon" iconName="fa-rocket" />
-      <h3>title</h3>
+      <Icon className="card__icon" iconName={props.icon} />
+      <h3>{props.title}</h3>
       <p className="card__text">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
         suscipit?
       </p>
-      <a href="#" className="card__link">
+      <a href={props.link} className="card__link">
         Learn more
       </a>
     </div>
