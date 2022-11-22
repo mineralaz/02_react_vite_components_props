@@ -1,27 +1,49 @@
 import TeamMember from './TeamMember';
-
+// generuoti team memberi is teamsArr
+const teamsArr = [
+  {
+    name: 'Kaiara Spencer',
+    occupation: 'PRODUCT MANAGER',
+    img: '/img/person_5.jpg',
+  },
+  {
+    name: 'Dave Simpson',
+    occupation: 'PRODUCT MANAGER',
+    img: '/img/person_6.jpg',
+  },
+  {
+    name: 'Ben Thompson',
+    occupation: 'PRODUCT MANAGER',
+    img: '/img/person_7.jpg',
+  },
+  {
+    name: 'Kyla Stewart',
+    occupation: 'PRODUCT MANAGER',
+    img: '/img/person_8.jpg',
+  },
+];
 function TeamList() {
   return (
     <div className="teamList">
       <TeamMember
-        name="Kaiara Spencer"
-        occupation="PRODUCT MANAGER"
-        img="/img/person_5.jpg"
+        name={teamsArr[0].name}
+        occupation={teamsArr[0].occupation}
+        img={teamsArr[0].img}
       />
       <TeamMember
-        name="Dave Simpson"
-        occupation="PRODUCT MANAGER"
-        img="/img/person_6.jpg"
+        name={teamsArr[1].name}
+        occupation={teamsArr[1].occupation}
+        img={teamsArr[1].img}
       />
       <TeamMember
-        name="Ben Thompson"
-        occupation="PRODUCT MANAGER"
-        img="/img/person_7.jpg"
+        name={teamsArr[2].name}
+        occupation={teamsArr[2].occupation}
+        img={teamsArr[2].img}
       />
       <TeamMember
-        name="Kyla Stewart"
-        occupation="PRODUCT MANAGER"
-        img="/img/person_8.jpg"
+        name={teamsArr[3].name}
+        occupation={teamsArr[3].occupation}
+        img={teamsArr[3].img}
       />
     </div>
   );

@@ -57,15 +57,16 @@
 .sectionTitle {
   margin-bottom: 1rem;
 }
-.red {
-  background-color: red;
-  color: white;
-  padding-left: 2rem;
-}
-.blue {
-  background-color: blue;
+
+.hero {
+  background-color: var(--main-color);
   color: white;
   padding: 2rem;
+}
+.red {
+  background-color: tomato;
+  color: white;
+  padding-left: 2rem;
 }
 .section2Cards {
   margin-top: 2rem;
