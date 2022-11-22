@@ -24,3 +24,18 @@
   font-weight: normal;
   margin-top: 0.5rem;
 }
+.member__name,
+.member__occupation {
+  padding-left: 1rem;
+}
+.member__name {
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.member__occupation {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 14px;
+  margin-top: 0;
+}
