@@ -24,18 +24,24 @@
   font-weight: normal;
   margin-top: 0.5rem;
 }
+.teamList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
 .member__name,
 .member__occupation {
-  padding-left: 1rem;
+  padding-left: 0.6rem;
 }
 .member__name {
   font-weight: normal;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 .member__occupation {
   text-transform: uppercase;
   color: grey;
-  font-size: 14px;
+  font-size: 0.6rem;
   margin-top: 0;
 }

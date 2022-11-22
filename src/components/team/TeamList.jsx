@@ -2,7 +2,7 @@ import TeamMember from './TeamMember';
 
 function TeamList() {
   return (
-    <div className="grid">
+    <div className="teamList">
       <TeamMember
         name="Kaiara Spencer"
         occupation="PRODUCT MANAGER"
