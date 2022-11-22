@@ -70,7 +70,22 @@
 .section2Cards {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1.5fr;
   gap: 1rem;
   margin-bottom: 5rem;
+}
+.contactItem {
+  text-align: center;
+}
+.contactUs .fa {
+  margin-bottom: 1rem;
+}
+.contactUs .sectionTitle {
+  margin-bottom: 3rem;
+}
+.contactUs p {
+  color: var(--main-color);
+}
+.contactUs :first-child p {
+  color: gray;
 }
