@@ -44,4 +44,26 @@
   color: grey;
   font-size: 0.6rem;
   margin-top: 0;
+  letter-spacing: 1px;
+}
+.subtitle {
+  text-align: center;
+  letter-spacing: 2px;
+  max-width: 600px;
+  color: grey;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.sectionTitle {
+  margin-bottom: 1rem;
+}
+.red {
+  background-color: red;
+  color: white;
+  padding-left: 2rem;
+}
+.blue {
+  background-color: blue;
+  color: white;
+  padding: 2rem;
 }
