@@ -1,6 +1,6 @@
 import ServiceCard from './ServiceCard';
 
-function Grid() {
+function ServicesGrid() {
   return (
     <div className="grid">
       <ServiceCard
@@ -37,4 +37,4 @@ function Grid() {
   );
 }
 
-export default Grid;
+export default ServicesGrid;
