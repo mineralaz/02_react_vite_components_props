@@ -3,6 +3,7 @@ import Icon from './UI/Icon';
 function ServiceCard(props) {
   return (
     <div className="card">
+      {props.data.map((card) => {})}
       <Icon iconName={props.icon} />
       <h3>{props.title}</h3>
       <p className="card__text">
